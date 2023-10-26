@@ -6,7 +6,13 @@
 // patrick feeney => P.F
 
 function abbrevName(name) {
-    return name[0].toUpperCase() + '.' + name[name.indexOf(' ') + 1].toUpperCase()
+    return (name[0] + '.' + name[name.indexOf(' ') + 1]).toUpperCase()
 }
 
-// const abbrevName = (name) => name[0].toUpperCase() + '.' + name[name.indexOf(' ') + 1].toUpperCase();
+// const abbrevName = (name) => (name[0] + '.' + name[name.indexOf(' ') + 1]).toUpperCase();
+
+// -----
+// function abbrevName(name){
+//     var nameArray = name.split(" ");
+//     return (nameArray[0][0] + "." + nameArray[1][0]).toUpperCase();
+// }
