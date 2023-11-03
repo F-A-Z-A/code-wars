@@ -17,14 +17,12 @@ function findSmallestInt(args) {
     return minNum;
 }
 
-// const findSmallestInt = args => {
-//     let minNum = args[0];
-//     for (let i = 0; i < args.length; i++) {
-//         if (args[i] < minNum) {
-//             minNum = args[i]
-//         }
+// function findSmallestInt(args) {
+//     let min = args[0];
+//     for(let i = 0; i< args.length; i++) {
+//         min = min < args[i] ? min : args[i]
 //     }
-//     return minNum;
+//     return min;
 // }
 
 
