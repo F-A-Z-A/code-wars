@@ -1,1 +1,1 @@
-tasks with CodeWars
+tasks solution from CodeWars
